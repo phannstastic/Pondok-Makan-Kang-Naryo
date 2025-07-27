@@ -1,6 +1,6 @@
 # Pondok Makan Kang Naryo
 
-![Screenshot Website](deployment/Screenshot 2025-07-27 112153.png)
+![Screenshot Website](https://raw.githubusercontent.com/phannstastic/Pondok-Makan-Kang-Naryo/main/deployment/Screenshot%202025-07-27%20112153.png)
 **Kunjungi Website:** [https://pondokmakankangnaryo.store/](https://pondokmakankangnaryo.store/)
 
 Selamat datang di repositori resmi **Pondok Makan Kang Naryo**! Ini adalah aplikasi web inovatif yang dirancang untuk mengoptimalkan manajemen operasional harian sebuah pondok makan, mulai dari pemesanan hingga pelaporan.
