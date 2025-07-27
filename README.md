@@ -1,66 +1,135 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Pondok Makan Kang Naryo
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+!(deployment/Screenshot 2025-07-27 112153.png)
+**Kunjungi Website:** [https://pondokmakankangnaryo.store/](https://pondokmakankangnaryo.store/)
 
-## About Laravel
+Selamat datang di repositori resmi **Pondok Makan Kang Naryo**! Ini adalah aplikasi web inovatif yang dirancang untuk mengoptimalkan manajemen operasional harian sebuah pondok makan, mulai dari pemesanan hingga pelaporan.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🍽️ Tentang Proyek Ini
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Pondok Makan Kang Naryo adalah sebuah sistem manajemen berbasis web yang dibangun untuk memfasilitasi pemilik dan staf pondok makan dalam mengelola berbagai aspek bisnis mereka secara efisien. Aplikasi ini bertujuan untuk menyederhanakan proses-proses kompleks dan meningkatkan produktivitas.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**Fungsionalitas utama meliputi:**
 
-## Learning Laravel
+* **Manajemen Menu Komprehensif**: Mengelola daftar menu makanan dan minuman dengan mudah, termasuk detail harga, deskripsi, dan ketersediaan.
+* **Sistem Pemesanan Terintegrasi**: Mencatat dan melacak pesanan pelanggan, baik untuk makan di tempat (dine-in) maupun dibawa pulang (take-away).
+* **Pelaporan Penjualan Akurat**: Menghasilkan laporan penjualan yang detail (harian, mingguan, bulanan) untuk analisis kinerja bisnis.
+* **Manajemen Pengguna Fleksibel**: Mengatur peran dan hak akses pengguna (misalnya, administrator, kasir, pelayan) untuk menjaga keamanan dan efisiensi operasional.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ✨ Fitur Unggulan
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+* **Antarmuka Pengguna (UI) Intuitif**: Dirancang untuk kemudahan penggunaan oleh semua tingkatan staf.
+* **Sistem Otentikasi & Otorisasi**: Keamanan data terjamin dengan sistem login dan hak akses berbasis peran.
+* **CRUD (Create, Read, Update, Delete) Dinamis**: Kontrol penuh atas data menu, pesanan, dan pengguna.
+* **Pelacakan Pesanan Real-time**: Memantau status pesanan dari awal hingga selesai.
+* **Struktur Database Efisien**: Optimalisasi penyimpanan dan pengambilan data untuk performa terbaik.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠️ Teknologi yang Digunakan
 
-## Laravel Sponsors
+Proyek ini dikembangkan menggunakan tumpukan teknologi modern untuk memastikan skalabilitas, keamanan, dan kinerja optimal:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+* **Backend**:
+    * **PHP**: Bahasa pemrograman utama.
+    * **Laravel**: Framework PHP yang kuat dan elegan.
+* **Database**:
+    * **MySQL**: Sistem manajemen database relasional yang andal.
+* **Frontend**:
+    * **HTML5**: Struktur dasar halaman web.
+    * **CSS3**: Styling dan desain responsif.
+    * **JavaScript**: Interaktivitas dan fungsionalitas dinamis.
+    * **[Tambahkan Framework CSS/JS jika ada, misal: Bootstrap/Tailwind CSS, Vue.js/React.js]**
 
-### Premium Partners
+## ⚙️ Persyaratan Sistem
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Untuk menjalankan aplikasi ini di lingkungan lokal Anda, pastikan Anda memiliki:
 
-## Contributing
+* **PHP** versi `8.1` atau lebih tinggi.
+* **Composer** (Manajer Dependensi PHP).
+* **Node.js** dan **npm** (atau Yarn) untuk kompilasi aset frontend.
+* **MySQL** Database Server.
+* Server web seperti **Apache** atau **Nginx**.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🚀 Cara Instalasi
 
-## Code of Conduct
+Ikuti langkah-langkah berikut untuk mengatur dan menjalankan proyek Pondok Makan Kang Naryo di mesin lokal Anda:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1.  **Clone Repositori:**
+    Buka terminal atau Git Bash Anda dan jalankan perintah berikut:
+    ```bash
+    git clone [https://github.com/phannstastic/Pondok-Makan-Kang-Naryo.git](https://github.com/phannstastic/Pondok-Makan-Kang-Naryo.git)
+    cd Pondok-Makan-Kang-Naryo
+    ```
 
-## Security Vulnerabilities
+2.  **Instal Dependensi Composer:**
+    ```bash
+    composer install
+    ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+3.  **Salin File Environment:**
+    Buat salinan file `.env.example` dan beri nama `.env`:
+    ```bash
+    cp .env.example .env
+    ```
 
-## License
+4.  **Konfigurasi Database:**
+    Buka file `.env` yang baru dibuat dan sesuaikan kredensial database Anda:
+    ```dotenv
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=nama_database_anda_disini # Ganti dengan nama database yang Anda inginkan
+    DB_USERNAME=username_database_anda # Ganti dengan username database Anda
+    DB_PASSWORD=password_database_anda # Ganti dengan password database Anda
+    ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+5.  **Buat Key Aplikasi:**
+    Ini akan menghasilkan kunci unik untuk aplikasi Laravel Anda:
+    ```bash
+    php artisan key:generate
+    ```
+
+6.  **Jalankan Migrasi Database:**
+    Perintah ini akan membuat semua tabel yang diperlukan di database Anda:
+    ```bash
+    php artisan migrate
+    ```
+
+7.  **Seed Data (Opsional):**
+    Jika Anda memiliki data awal atau data dummy (misalnya, akun admin default), Anda bisa menjalankannya:
+    ```bash
+    php artisan db:seed
+    ```
+
+8.  **Instal Dependensi NPM dan Kompilasi Aset Frontend:**
+    ```bash
+    npm install
+    npm run dev # Untuk pengembangan (dengan hot-reloading)
+    # ATAU
+    npm run build # Untuk kompilasi aset siap produksi
+    ```
+
+9.  **Jalankan Server Lokal Laravel:**
+    ```bash
+    php artisan serve
+    ```
+    Aplikasi sekarang akan tersedia di browser Anda, biasanya di `http://127.0.0.1:8000`.
+
+## 🤝 Kontribusi
+
+Kami sangat menghargai setiap bentuk kontribusi untuk pengembangan Pondok Makan Kang Naryo! Jika Anda ingin berkontribusi, silakan ikuti panduan berikut:
+
+1.  Fork repositori ini.
+2.  Buat branch baru untuk fitur atau perbaikan Anda (`git checkout -b feature/nama-fitur-baru` atau `bugfix/perbaikan-bug`).
+3.  Lakukan perubahan Anda dan pastikan kode bersih serta terdokumentasi.
+4.  Commit perubahan Anda (`git commit -m 'Deskripsi singkat perubahan'`).
+5.  Push ke branch Anda (`git push origin nama-branch-anda`).
+6.  Buka Pull Request ke branch `main` repositori ini.
+
+## 📧 Tim
+
+* **Project Manager**: Yusep Fathul Anwar
+* **System Analyst**: Muhammad Rozaky Muthohar
+* **UI/UX**: Muhammad Ghozali Akbar & Muhammad Alif Ramadhani
+* **Front End**: Muhammad Alif Ramadhani & Muhammad Ghozali Akbar
+* **Back End**: Muhammad Irfan Trinugroho
+* **Deployment**: Yusep Fathul Anwar, Muhammad Alif Ramadhani, Muhammad Rozaky Muthohar & Muhammad Irfan Trinugroho
