@@ -132,4 +132,5 @@ Kami sangat menghargai setiap bentuk kontribusi untuk pengembangan Pondok Makan 
 * **UI/UX**: Muhammad Ghozali Akbar & Muhammad Alif Ramadhani
 * **Front End**: Muhammad Alif Ramadhani & Muhammad Ghozali Akbar
 * **Back End**: Muhammad Irfan Trinugroho
-* **Deployment**: Yusep Fathul Anwar, Muhammad Alif Ramadhani, Muhammad Rozaky Muthohar & Muhammad Irfan Trinugroho
+* **Quality Assurance**: Muhammad Irfan Trinugroho
+* **Deployment**: Yusep Fathul Anwar, Muhammad Alif Ramadhani & Muhammad Rozaky Muthohar
